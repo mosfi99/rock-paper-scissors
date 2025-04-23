@@ -1,16 +1,9 @@
-// This is part of The Odin Project Foundations Curriculum, where the student starts to learn JS, and the DOM
-// https://www.theodinproject.com/lessons/foundations-rock-paper-scissors & https://www.theodinproject.com/lessons/foundations-revisiting-rock-paper-scissors
-
-// Goal: rock paper scissors game
-// Interface: the DOM
-// Players: player vs. computer
-
-// FUTURE TO-DO:
-// improve UI:
-// - when a P or C choice wins highlight the card
-// - change alert to a modal display
-// Make an option to play against another player locally
-// Make it responsive for mobile devices
+// TODO:
+// - Enhance the UI:
+//   - Highlight the winning choice (player or computer) after each round.
+//   - Replace alert messages with a modal for game-over notifications.
+// - Add a feature to allow two players to play locally.
+// - Make the game responsive and optimized for mobile devices.
 
 // query selectors
 const choiceButtons = document.querySelectorAll('.choices');
